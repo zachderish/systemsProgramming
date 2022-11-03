@@ -1,4 +1,4 @@
-# Project 1
+# Project 1 - Systems Programming
 
 ## factor.c
 
