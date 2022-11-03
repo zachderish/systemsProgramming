@@ -1,16 +1,13 @@
-#Project 1
+# Project 1
 
-
-
-
-factor.c
+## factor.c
 
 Write a program that takes a single integer nas a command-line argument and finds
 its prime factors, excluding 1. The output should consist of a single line listing each
 prime factor in non-decreasing order, separated by a space. If nis prime, just print
 nitself. If there are repeat factors, print the factor as many times as it divides n.
 
-grep.c
+## grep.c
 
 Write a program that takes a string as a command-line argument and then reads
 from stdin until the user closes stdin (with ctrl-d, written ^D below). It should print
@@ -18,7 +15,7 @@ every line that contains the given string. It should be case-sensitive by defaul
 case-insensitive if the command line option -i is given before the string. Strings
 may have arbitrary length.
 
-sort.c
+## sort.c
 
 Write a program that reads from stdin and sorts its input. If no command-line
 option is given, it should use case-insensitive lexicographic sorting. If the -n option
@@ -26,7 +23,7 @@ is given, it should use numeric sorting (in this case, you can assume all inputs
 be valid integers). You can assume there won’t be any spaces in the input string.
 There can be an arbitrary number of strings, of arbitrary length.
 
-uniq.c
+## uniq.c
 
 Write a program that reads from stdin and filters out duplicate lines of input. It
 should read lines from stdin, and then print each unique line along with a count of
@@ -35,7 +32,7 @@ duplicates. There can be an arbitrary number of strings, of arbitrary length.
 Note that only adjacent duplicates count, so if the input were the lines “hello”,
 “world”, and “hello” again, all three would be treated as unique.
 
-monster.c
+## monster.c
 
 This program is a game of a player and monster moving on a 2D grid. The player
 has a goal to reach. The monster wants to reach the player.
