@@ -2,10 +2,10 @@
 
 ## factor.c
 
-Write a program that takes a single integer nas a command-line argument and finds
+Write a program that takes a single integer n as a command-line argument and finds
 its prime factors, excluding 1. The output should consist of a single line listing each
-prime factor in non-decreasing order, separated by a space. If nis prime, just print
-nitself. If there are repeat factors, print the factor as many times as it divides n.
+prime factor in non-decreasing order, separated by a space. If n is prime, just print
+n itself. If there are repeat factors, print the factor as many times as it divides n.
 
 ## grep.c
 
